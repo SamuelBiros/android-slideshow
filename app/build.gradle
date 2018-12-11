@@ -28,7 +28,6 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation 'com.android.support:appcompat-v7:27.1.1'
     implementation 'com.android.support:design:27.1.1'
     implementation 'com.android.support:support-v4:27.1.1'
@@ -43,5 +42,4 @@ dependencies {
     testImplementation "org.powermock:powermock-module-junit4-rule:2.0.0-beta.5"
     testImplementation "org.powermock:powermock-api-mockito2:2.0.0-beta.5"
     testImplementation "org.powermock:powermock-classloading-xstream:1.6.6"
-
 }
